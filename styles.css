@@ -3970,7 +3970,7 @@ footer {
     }
 }
 /* Final layout polish: consistent gutters and scroll-driven formation. */
-.hero-services { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); }
+.hero-services { display:grid; grid-template-columns:repeat(3,max-content); }
 .hero-services a, .hero-services a:first-child,
 .hero-services a:hover, .hero-services a:first-child:hover { padding:3px 16px; }
 .hero-services a { justify-content:flex-start; gap:12px; }
@@ -3993,6 +3993,7 @@ footer {
  .service-card:nth-child(2) .service-copy { padding-left:60px; padding-right:max(100px,calc((100vw - 1200px)/2)); }
 }
 @media(max-width:700px) {
+ .hero-services { grid-template-columns:repeat(3,minmax(0,1fr)); }
  .hero-services a, .hero-services a:first-child,
  .hero-services a:hover, .hero-services a:first-child:hover { padding:0 10px; gap:9px; }
  .orb-content { padding:9%; }
