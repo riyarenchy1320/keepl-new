@@ -3969,3 +3969,42 @@ footer {
         display: none
     }
 }
+/* Final layout polish: consistent gutters and scroll-driven formation. */
+.hero-services { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); }
+.hero-services a, .hero-services a:first-child,
+.hero-services a:hover, .hero-services a:first-child:hover { padding:3px 16px; }
+.hero-services a { justify-content:flex-start; gap:12px; }
+.hero, .partner-pin, .projects { background-image:radial-gradient(circle,rgba(40,40,40,.09) .7px,transparent .9px); background-size:20px 20px; }
+.orbits { top:50%; z-index:6; }
+.venture-disc { top:50%; z-index:7; }
+.venture-wordmark { top:50%; font-size:64px; text-align:center; }
+.partner-result { top:50%; text-align:center; }
+.partner-result h3 { font-size:clamp(40px,4.5vw,64px); }
+.partner-result>p:last-child { font-size:16px; }
+.orb-content { display:flex; flex-direction:column; align-items:center; text-align:center; padding:10% 13%; }
+.orb-content .share { margin-bottom:16px; }
+.orb img.kilburn-logo { width:72%; height:42px; max-height:42px; flex-shrink:0; }
+.orb img.eastend-clean { width:72%; height:42px; max-height:42px; flex-shrink:0; }
+.orb-content h3 { margin:14px 0 0; font-size:18px; }
+.orb-content>p:last-child { margin-top:9px; }
+@media(min-width:1100px) {
+ .wrap { width:min(1200px,calc(100% - 200px)); }
+ .service-copy { padding-left:max(100px,calc((100vw - 1200px)/2)); padding-right:60px; }
+ .service-card:nth-child(2) .service-copy { padding-left:60px; padding-right:max(100px,calc((100vw - 1200px)/2)); }
+}
+@media(max-width:700px) {
+ .hero-services a, .hero-services a:first-child,
+ .hero-services a:hover, .hero-services a:first-child:hover { padding:0 10px; gap:9px; }
+ .orb-content { padding:9%; }
+ .orb-content .share { margin-bottom:9px; }
+ .orb img.kilburn-logo,.orb img.eastend-clean { width:78%; height:24px; max-height:24px; }
+ .orb-content h3 { margin-top:8px; font-size:12px; }
+ .orb-content>p:last-child { margin-top:6px; }
+ .venture-wordmark { font-size:46px; }
+ .partner-result h3 { font-size:38px; }
+ .partner-result>p:last-child { font-size:12px; }
+}
+@media(prefers-reduced-motion:reduce) {
+ .orbits,.venture-wordmark,.partner-result { top:auto; }
+ .venture-wordmark { text-align:center; }
+}

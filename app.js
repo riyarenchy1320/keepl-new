@@ -11,7 +11,9 @@ function render(){ticking=false;const vh=innerHeight;
  const smooth=x=>{x=clamp(x);return x*x*(3-2*x)};
  const small=innerWidth<701;
  const intro=smooth(a/.1),appear=smooth((a-.1)/.1),turn=smooth((a-.23)/.20),fill=smooth((a-.44)/.08),show=smooth((a-.51)/.07),birth=smooth((a-.67)/.08),clear=smooth((a-.73)/.06),grow=smooth((a-.79)/.14),copy=smooth((a-.93)/.05);
- const size=Math.min(small?innerWidth*.45:340,vh*.40)*(.65+.35*turn),distance=size*(.53-.13*turn),angle=turn*Math.PI/2;
+ const targetSize=Math.min(small?innerWidth*.45:340,vh*.40);
+ const entrySize=Math.max(vh*.95,Math.min(innerWidth*.85,1100));
+ const size=entrySize+(targetSize-entrySize)*turn,distance=size*(.53-.13*turn),angle=turn*Math.PI/2;
  const x=Math.sin(angle)*distance,y=Math.cos(angle)*distance;
  $('.partner-pin').style.setProperty('--orb-size',`${size}px`);
  $('.partner-title').style.opacity=intro*(1-clear);
@@ -26,8 +28,9 @@ function render(){ticking=false;const vh=innerHeight;
  $('.venture-disc').style.opacity=birth;
  $('.venture-disc').style.transform=`translate(-50%,-50%) scale(${.08+.92*birth})`;
  $('.venture-wordmark').style.opacity=birth;
- $('.venture-wordmark').style.transform=`translate(-50%,calc(-50% - ${copy*vh*.1}px))`;
- $('.partner-result').style.opacity=copy;$('.partner-result').style.transform=`translateY(${(1-copy)*25}px)`;
+ const wordmark=$('.venture-wordmark'),result=$('.partner-result'),gap=small?24:32;
+ wordmark.style.transform=`translate(-50%,calc(-50% - ${copy*(result.offsetHeight+gap)/2}px))`;
+ result.style.opacity=copy;result.style.transform=`translateY(${(wordmark.offsetHeight+gap-result.offsetHeight)/2+(1-copy)*25}px)`;
  $('.partner-hint').style.opacity=1-smooth(a/.16);
  $$('.reveal').forEach(el=>{const r=el.getBoundingClientRect(),progress=clamp((vh*.85-r.top)/(vh*.48));const words=[...el.querySelectorAll('.word')];words.forEach((w,i)=>{const k=clamp(progress*words.length-i);const col=Math.round(187-(187-25)*k);w.style.color=`rgb(${col},${col},${col})`})});
  }
@@ -37,7 +40,7 @@ const observer=new IntersectionObserver(entries=>entries.forEach(e=>e.target.cla
 function closeMenu(){$('#more-menu').hidden=true;$('.mobile-menu').setAttribute('aria-expanded','false')}
 $('.mobile-menu').onclick=()=>{const open=$('#more-menu').hidden;$('#more-menu').hidden=!open;$('.mobile-menu').setAttribute('aria-expanded',String(open))};$$('#more-menu a,#more-menu button').forEach(a=>a.addEventListener('click',closeMenu));
 $$('[data-filter]').forEach(btn=>btn.onclick=()=>{$$('[data-filter]').forEach(b=>{b.classList.toggle('active',b===btn);b.setAttribute('aria-pressed',String(b===btn))});$$('.project').forEach(p=>p.hidden=btn.dataset.filter!=='all'&&p.dataset.sector!==btn.dataset.filter)});
-$('#pause-motion').onclick=()=>{const paused=$('.marquee').classList.toggle('paused');$('#pause-motion').textContent=paused?'Resume motion ▶':'Pause motion Ⅱ';$('#pause-motion').setAttribute('aria-pressed',paused)};
+if($('#pause-motion')) $('#pause-motion').onclick=()=>{const paused=$('.marquee').classList.toggle('paused');$('#pause-motion').textContent=paused?'Resume motion ▶':'Pause motion Ⅱ';$('#pause-motion').setAttribute('aria-pressed',paused)};
 const panels={resources:{title:'Resources & infrastructure',body:'<p>The joint venture brings together Kilburn’s engineering and manufacturing experience and East End’s site execution resources.</p><div class="dialog-facts"><div><small>EAST END WORKS</small>Choudwar Industrial Estate, Cuttack</div><div><small>MECHANICAL ENGINEERS</small>35</div><div><small>DIRECT STAFF</small>106</div><div><small>WORKMEN</small>Over 350</div></div><p>These figures describe East End parent operations in the supplied concept note. Project-specific deployment and the current plant, crane, welding and NDT inventory require confirmation.</p>'},qhse:{title:'Quality, health, safety & environment',body:'<p>Quality systems, inspection practice and safe execution are central to the proposed KEEPL pre-qualification information.</p><p>The concept note references East End’s ISO 9001 quality policy, IBR approval for boilers, PESO-compliant tankers and ISO 45001:2018 implementation roadmap.</p><p>These are parent references, not a statement of KEEPL certification. Approved policies, valid certificates and verified safe man-hours have not yet been supplied for this preview.</p>'},downloads:{title:'Company documents',body:'<p>The planned library includes the company profile, pre-qualification dossier, certificates and statutory documents.</p><p>No approved files have been supplied yet. Downloads and email delivery will become available once the documents and routing contacts are confirmed.</p>'},careers:{title:'Build your next chapter',body:'<p>Industrial execution brings together mechanical engineers, piping specialists, welders, supervisors, quality teams and safety professionals.</p><p>No verified vacancies have been supplied for this preview. Use the Careers enquiry type to preview an expression of interest. Applications are not sent or stored.</p>'}};
 const projects={paradip:['IOCL Paradip','Storage tank fabrication and erection. The concept note also references HVLRM work at IOCL Paradip.'],jspl:['JSPL Angul','Industrial piping execution referenced in the East End project experience.'],bhel:['BHEL–IOCL SRU','Sulphur recovery unit project experience referenced in the client concept note. Detailed work scope has not yet been provided.'],syngas:['API Syngas Phase II','Industrial project experience referenced in the client concept note. Detailed work scope has not yet been provided.']};
 const dialog=$('#detail-dialog');function openPanel(title,body){$('#dialog-title').textContent=title;$('#dialog-body').innerHTML=body;dialog.showModal()}
