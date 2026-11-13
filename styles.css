@@ -955,7 +955,7 @@ header {
     position: absolute;
     inset: 0;
     z-index: -1;
-    background: linear-gradient(90deg, #17191744, #171917e8), url('assets/site-1.jpg') center/cover;
+    background: linear-gradient(90deg, #17191744, #171917e8), url('assets/service-equipment.jpg') center/cover;
     filter: grayscale(1)
 }
 
@@ -2694,7 +2694,7 @@ body {
 
 .contact-bg {
     filter: none;
-    background: linear-gradient(90deg, #17191744, #171917aa), url('assets/site-1.jpg') center/cover
+    background: linear-gradient(90deg, #17191744, #171917aa), url('assets/service-equipment.jpg') center/cover
 }
 
 .contact-layout {
@@ -4009,3 +4009,7 @@ footer {
  .orbits,.venture-wordmark,.partner-result { top:auto; }
  .venture-wordmark { text-align:center; }
 }
+
+/* Preserve the subjects in the new high-resolution service photographs. */
+.service-card .structure img { object-position:center; }
+#service-equipment .service-image img { object-position:35% center; }
