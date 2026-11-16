@@ -4065,3 +4065,9 @@ label, small, .stat-index, .project-top, .image-disclaimer,
 @media(min-width:1101px) {
  .contact-layout { grid-template-columns:.85fr 1.15fr; gap:48px; }
 }
+
+/* Keep the parent name clear of the orange intersection on narrow screens. */
+@media(max-width:700px) {
+ .orb-two h4 { max-width:70%; flex-shrink:0; }
+ .orb-two h4 .parent-name-line { display:block; }
+}
