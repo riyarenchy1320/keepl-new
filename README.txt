@@ -1,3 +1,13 @@
+EDIT THESE ROOT FILES ONLY
+==========================
+index.html — homepage content
+styles.css — design and typography
+app.js — animations and interactions
+assets/ — images and fonts
+
+GitHub Pages publishes this root folder. Save your edits, then commit and push main.
+The outdated "html file keepl" duplicate was backed up outside this repository and removed to avoid editing the wrong website.
+
 KEEPL — local website concept
 
 Open index.html directly, or serve this directory:
