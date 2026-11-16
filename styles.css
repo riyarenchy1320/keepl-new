@@ -82,7 +82,7 @@ p {
 }
 
 .eyebrow {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: .16em;
     line-height: 1.6
@@ -101,7 +101,7 @@ p {
     color: #fff;
     padding: 18px 24px;
     border: 0;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     transition: background .25s, transform .25s
 }
@@ -129,7 +129,7 @@ p {
     border: 0;
     border-bottom: 1px solid currentColor;
     background: none;
-    font-size: 11px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: .07em
 }
@@ -180,7 +180,7 @@ header {
 }
 
 .brand span {
-    font: 600 8px/1.5 var(--body);
+    font: 600 12px/1.5 var(--body);
     letter-spacing: .08em;
     border-left: 1px solid #bbb;
     padding-left: 12px
@@ -203,7 +203,7 @@ header {
 
 .nav nav a,
 .nav nav button {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
     border: 0;
     background: none;
@@ -268,7 +268,7 @@ header {
     bottom: 85px;
     right: 25px;
     z-index: 1;
-    font-size: 8px;
+    font-size: 12px;
     letter-spacing: .15em;
     color: white;
     writing-mode: vertical-rl
@@ -301,7 +301,7 @@ header {
 
 .hero-copy {
     max-width: 450px;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 25px
 }
 
@@ -314,7 +314,7 @@ header {
 }
 
 .hero-parents>span {
-    font-size: 8px;
+    font-size: 12px;
     max-width: 70px;
     letter-spacing: .12em
 }
@@ -331,7 +331,7 @@ header {
 
 .hero-parents small {
     display: block;
-    font: 600 7px/1.5 var(--body);
+    font: 600 12px/1.5 var(--body);
     letter-spacing: .13em
 }
 
@@ -346,7 +346,7 @@ header {
     margin-top: 36px;
     padding: 21px 0;
     border-top: 1px solid #aaa8;
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: .15em
 }
@@ -400,7 +400,7 @@ header {
 }
 
 .stats-intro>p:not(.eyebrow) {
-    font-size: 12px;
+    font-size: 14px;
     max-width: 280px;
     color: #b8b8b3
 }
@@ -410,7 +410,7 @@ header {
 }
 
 .stats-intro small {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.7;
     display: block;
     color: #aaa;
@@ -463,13 +463,13 @@ header {
 }
 
 .stat p {
-    font-size: 10px;
+    font-size: 12px;
     color: #aaa;
     margin-top: 12px
 }
 
 .stat-index {
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: .1em;
     color: #aaa
 }
@@ -553,7 +553,7 @@ header {
 }
 
 .orb-content .eyebrow {
-    font-size: 8px;
+    font-size: 12px;
     margin-bottom: 26px
 }
 
@@ -565,7 +565,7 @@ header {
 }
 
 .orb-content>p:last-child {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 1.7;
     margin-top: 24px
 }
@@ -576,7 +576,7 @@ header {
 
 .orb-content small {
     display: block;
-    font: 500 7px/1.5 var(--body);
+    font: 500 12px/1.5 var(--body);
     margin-top: 7px;
     letter-spacing: .08em
 }
@@ -589,13 +589,13 @@ header {
     opacity: 0
 }
 
-.partner-result h3 {
+.partner-result h2 {
     font-size: 33px;
     margin-bottom: 12px
 }
 
 .partner-result p {
-    font-size: 11px
+    font-size: 12px
 }
 
 .partner-hint {
@@ -603,7 +603,7 @@ header {
     bottom: 25px;
     left: 0;
     right: 0;
-    font-size: 8px;
+    font-size: 12px;
     letter-spacing: .15em;
     color: #777
 }
@@ -627,7 +627,7 @@ header {
 }
 
 .section-heading>p {
-    font-size: 13px;
+    font-size: 14px;
     max-width: 380px;
     justify-self: end;
     color: #6c6c67
@@ -658,7 +658,7 @@ header {
 }
 
 .service-copy>p:not(.eyebrow) {
-    font-size: 12px;
+    font-size: 14px;
     color: #b8b8b4;
     max-width: 360px
 }
@@ -704,7 +704,7 @@ header {
     bottom: 27px;
     left: 28px;
     z-index: 1;
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: .13em
 }
 
@@ -723,7 +723,7 @@ header {
     align-items: center;
     padding-top: 35px;
     color: #aaa;
-    font-size: 10px
+    font-size: 12px
 }
 
 .projects {
@@ -742,7 +742,7 @@ header {
     border: 0;
     border-bottom: 2px solid transparent;
     background: none;
-    font-size: 11px;
+    font-size: 12px;
     padding: 12px 0
 }
 
@@ -796,7 +796,7 @@ header {
 .project-top {
     position: relative;
     z-index: 1;
-    font-size: 8px;
+    font-size: 12px;
     letter-spacing: .12em
 }
 
@@ -811,7 +811,7 @@ header {
 }
 
 .project-info small {
-    font-size: 8px;
+    font-size: 12px;
     letter-spacing: .1em;
     margin-bottom: 12px;
     color: #a94120
@@ -823,7 +823,7 @@ header {
 }
 
 .project-info>span {
-    font-size: 10px;
+    font-size: 12px;
     max-width: 180px
 }
 
@@ -878,7 +878,7 @@ header {
 }
 
 .project-note {
-    font-size: 9px;
+    font-size: 12px;
     color: #777;
     margin-top: 22px
 }
@@ -899,7 +899,7 @@ header {
 .marquee-label button {
     border: 0;
     background: none;
-    font-size: 10px
+    font-size: 12px
 }
 
 .marquee-track {
@@ -978,7 +978,7 @@ form h2 {
 }
 
 label {
-    font-size: 9px;
+    font-size: 12px;
     font-weight: 600;
     display: block;
     margin-bottom: 18px
@@ -993,7 +993,7 @@ textarea {
     border-bottom: 1px solid #ccc;
     border-radius: 0;
     padding: 9px 0;
-    font-size: 11px;
+    font-size: 12px;
     color: #333;
     outline-offset: 2px
 }
@@ -1014,13 +1014,13 @@ form .button {
 }
 
 .form-note {
-    font-size: 9px;
+    font-size: 12px;
     color: #777;
     margin-top: 15px
 }
 
 #form-status {
-    font-size: 11px;
+    font-size: 12px;
     color: #7a3b20;
     margin-top: 12px
 }
@@ -1037,18 +1037,18 @@ form .button {
 
 .contact-copy>p:not(.eyebrow) {
     color: #ccc;
-    font-size: 13px
+    font-size: 14px
 }
 
 .contact-copy>div {
     border-top: 1px solid #ffffff40;
     margin-top: 45px;
     padding-top: 25px;
-    font-size: 10px
+    font-size: 12px
 }
 
 .contact-copy>div span {
-    font-size: 8px;
+    font-size: 12px;
     letter-spacing: .12em;
     color: #ccc
 }
@@ -1071,7 +1071,7 @@ footer {
 }
 
 .footer-top p {
-    font-size: 10px
+    font-size: 12px
 }
 
 .footer-top button {
@@ -1079,7 +1079,7 @@ footer {
     background: none;
     border: 0;
     color: #ddd;
-    font-size: 10px;
+    font-size: 12px;
     padding: 5px 0
 }
 
@@ -1088,7 +1088,7 @@ footer {
     justify-content: space-between;
     border-top: 1px solid #ffffff20;
     padding-top: 20px;
-    font-size: 8px;
+    font-size: 12px;
     letter-spacing: .05em
 }
 
@@ -1113,7 +1113,7 @@ dialog h2 {
 
 dialog p,
 dialog li {
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 15px
 }
 
@@ -1240,7 +1240,7 @@ dialog .button {
     }
 
     .nav .small {
-        font-size: 9px;
+        font-size: 12px;
         padding: 10px 12px;
         gap: 12px;
         margin-left: auto
@@ -1259,7 +1259,7 @@ dialog .button {
 
     .more-menu:not([hidden]) {
         grid-template-columns: 1fr 1fr;
-        font-size: 11px
+        font-size: 12px
     }
 
     .hero {
@@ -1285,7 +1285,7 @@ dialog .button {
     }
 
     .hero-copy {
-        font-size: 12px;
+        font-size: 14px;
         max-width: 310px
     }
 
@@ -1336,18 +1336,18 @@ dialog .button {
     }
 
     .stats-intro>p:not(.eyebrow) {
-        font-size: 11px;
+        font-size: 12px;
         max-width: 100%
     }
 
     .stats-intro .text-link {
         margin: 0;
         padding: 8px 0;
-        font-size: 9px
+        font-size: 12px
     }
 
     .stats-intro small {
-        font-size: 8px;
+        font-size: 12px;
         margin-top: 10px;
         max-width: 100%
     }
@@ -1371,11 +1371,11 @@ dialog .button {
     }
 
     .stat h3 {
-        font-size: 13px
+        font-size: 14px
     }
 
     .stat p {
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 6px
     }
 
@@ -1416,12 +1416,12 @@ dialog .button {
     }
 
     .orb-content .eyebrow {
-        font-size: 6px;
+        font-size: 12px;
         margin-bottom: 12px
     }
 
     .orb-content>p:last-child {
-        font-size: 8px;
+        font-size: 12px;
         line-height: 1.5;
         margin-top: 13px
     }
@@ -1435,23 +1435,23 @@ dialog .button {
     }
 
     .orb-content small {
-        font-size: 5px
+        font-size: 12px
     }
 
     .partner-result {
         bottom: 55px
     }
 
-    .partner-result h3 {
+    .partner-result h2 {
         font-size: 29px
     }
 
     .partner-result p {
-        font-size: 10px
+        font-size: 12px
     }
 
     .partner-hint {
-        font-size: 6px
+        font-size: 12px
     }
 
     .services,
@@ -1472,7 +1472,7 @@ dialog .button {
     .section-heading>p {
         max-width: 100%;
         justify-self: start;
-        font-size: 12px
+        font-size: 14px
     }
 
     .service-grid {
@@ -1525,7 +1525,7 @@ dialog .button {
     }
 
     .filters button {
-        font-size: 9px
+        font-size: 12px
     }
 
     .project {
@@ -1534,7 +1534,7 @@ dialog .button {
     }
 
     .project-top {
-        font-size: 7px
+        font-size: 12px
     }
 
     .project-info {
@@ -1547,11 +1547,11 @@ dialog .button {
     }
 
     .project-info small {
-        font-size: 7px
+        font-size: 12px
     }
 
     .project-info>span {
-        font-size: 9px
+        font-size: 12px
     }
 
     .project-art {
@@ -1582,7 +1582,7 @@ dialog .button {
     }
 
     .marquee-label .eyebrow {
-        font-size: 8px
+        font-size: 12px
     }
 
     .contact {
@@ -1752,13 +1752,13 @@ dialog .button {
 }
 
 .hero-metrics span {
-    font-size: 7px;
+    font-size: 12px;
     letter-spacing: .1em
 }
 
 .hero-metrics p {
     grid-column: 1/-1;
-    font-size: 7px;
+    font-size: 12px;
     letter-spacing: .12em;
     color: #777;
     border-top: 1px solid #ccc;
@@ -1852,7 +1852,7 @@ body {
     border-radius: 40px;
     padding: 13px 15px 13px 24px;
     gap: 25px;
-    font-size: 11px
+    font-size: 12px
 }
 
 .button span {
@@ -1880,7 +1880,7 @@ body {
 }
 
 .nav-tagline {
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: .13em;
     margin-left: auto;
     margin-right: 40px
@@ -1958,7 +1958,7 @@ body {
 }
 
 .hero .eyebrow {
-    font-size: 9px;
+    font-size: 12px;
     gap: 10px
 }
 
@@ -1989,7 +1989,7 @@ body {
     gap: 15px;
     padding: 12px 0;
     border-bottom: 1px solid #b9b8b2;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     background: #ecebe788;
     transition: color .3s, padding .3s
@@ -2001,7 +2001,7 @@ body {
 }
 
 .hero-services small {
-    font-size: 10px;
+    font-size: 12px;
     color: #888
 }
 
@@ -2015,7 +2015,7 @@ body {
     position: absolute;
     top: 50px;
     right: 0;
-    font-size: 10px;
+    font-size: 12px;
     text-align: right;
     letter-spacing: .12em;
     line-height: 1.6
@@ -2038,7 +2038,7 @@ body {
     min-height: 64px;
     align-items: center;
     padding: 18px 0;
-    font-size: 10px
+    font-size: 12px
 }
 
 .hero-bottom>span:last-child {
@@ -2123,7 +2123,7 @@ body {
 
 .type-stamp span {
     display: block;
-    font: 600 8px/1 var(--body);
+    font: 600 12px/1 var(--body);
     letter-spacing: .15em;
     margin-top: 16px;
     color: var(--orange)
@@ -2137,14 +2137,14 @@ body {
 
 .intro-bottom .button {
     margin-top: 30px;
-    font-size: 10px;
+    font-size: 12px;
     gap: 12px;
     padding-left: 15px
 }
 
 .stats-intro small {
     max-width: 100%;
-    font-size: 10px;
+    font-size: 12px;
     color: #999;
     margin-top: 20px
 }
@@ -2235,7 +2235,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 17px 0;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: .14em;
     color: #ccc
 }
@@ -2361,7 +2361,7 @@ body {
     mix-blend-mode: multiply
 }
 
-.orb-content h3 {
+.orb-content h4 {
     font: 600 33px/1.15 var(--head);
     margin-top: 25px;
     letter-spacing: .01em
@@ -2393,7 +2393,7 @@ body {
 }
 
 .orb-two .share,
-.orb-two h3,
+.orb-two h4,
 .orb-two p {
     color: white
 }
@@ -2418,19 +2418,19 @@ body {
 
 .partner-result .eyebrow {
     color: #b73e16;
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 10px
 }
 
-.partner-result h3 {
+.partner-result h2 {
     font-size: 43px;
     line-height: .98;
     margin-bottom: 12px
 }
 
-.partner-result h3 span {
+.partner-result h2 span {
     display: inline-block;
-    font-size: 10px;
+    font-size: 12px;
     background: var(--orange);
     color: white;
     padding: 7px 10px;
@@ -2440,12 +2440,12 @@ body {
 }
 
 .partner-result>p:last-child {
-    font-size: 10px
+    font-size: 12px
 }
 
 .partner-hint {
     bottom: 35px;
-    font-size: 10px
+    font-size: 12px
 }
 
 .services {
@@ -2629,7 +2629,7 @@ body {
 }
 
 .project-top {
-    font-size: 10px
+    font-size: 12px
 }
 
 .project-info small {
@@ -2661,7 +2661,7 @@ body {
     position: absolute;
     top: 53px;
     left: 24px;
-    font-size: 6px;
+    font-size: 12px;
     letter-spacing: .12em;
     opacity: 0;
     z-index: 1;
@@ -2774,7 +2774,7 @@ footer {
 }
 
 .footer-top p {
-    font-size: 12px
+    font-size: 14px
 }
 
 .footer-links {
@@ -2839,12 +2839,12 @@ footer {
 
     .desktop-nav a,
     .desktop-nav button {
-        font-size: 10px
+        font-size: 12px
     }
 
     .nav-tagline {
         margin-right: 15px;
-        font-size: 10px
+        font-size: 12px
     }
 
     .stats-intro {
@@ -2889,7 +2889,7 @@ footer {
         margin-bottom: 30px
     }
 
-    .orb-content h3 {
+    .orb-content h4 {
         font-size: 28px
     }
 
@@ -2897,7 +2897,7 @@ footer {
         font-size: 22px
     }
 
-    .partner-result h3 {
+    .partner-result h2 {
         font-size: 35px
     }
 
@@ -2981,7 +2981,7 @@ footer {
     }
 
     .hero-bottom {
-        font-size: 10px;
+        font-size: 12px;
         gap: 25px;
         min-height: 70px
     }
@@ -3015,7 +3015,7 @@ footer {
     .intro-title .eyebrow {
         position: static;
         margin-bottom: 25px;
-        font-size: 10px
+        font-size: 12px
     }
 
     .stats-intro h2 {
@@ -3035,7 +3035,7 @@ footer {
     }
 
     .type-stamp span {
-        font-size: 6px;
+        font-size: 12px;
         margin-top: 12px
     }
 
@@ -3048,7 +3048,7 @@ footer {
     }
 
     .stats-intro small {
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 15px
     }
 
@@ -3070,7 +3070,7 @@ footer {
     }
 
     .stats-caption {
-        font-size: 6px
+        font-size: 12px
     }
 
     .partnership {
@@ -3089,7 +3089,7 @@ footer {
     }
 
     .partner-eyebrow {
-        font-size: 8px;
+        font-size: 12px;
         top: 30px
     }
 
@@ -3119,7 +3119,7 @@ footer {
         width: 220px
     }
 
-    .orb-content h3 {
+    .orb-content h4 {
         font-size: 22px;
         margin-top: 15px
     }
@@ -3134,21 +3134,21 @@ footer {
         padding: 0 15px
     }
 
-    .partner-result h3 {
+    .partner-result h2 {
         font-size: 32px
     }
 
-    .partner-result h3 span {
-        font-size: 8px;
+    .partner-result h2 span {
+        font-size: 12px;
         margin-left: 8px
     }
 
     .partner-result>p:last-child {
-        font-size: 9px
+        font-size: 12px
     }
 
     .partner-hint {
-        font-size: 7px
+        font-size: 12px
     }
 
     .services {
@@ -3179,13 +3179,13 @@ footer {
     }
 
     .service-copy>p:not(.eyebrow) {
-        font-size: 11px
+        font-size: 12px
     }
 
     .service-copy .button {
         margin-top: 20px;
         padding: 8px 10px 8px 17px;
-        font-size: 9px
+        font-size: 12px
     }
 
     .service-image {
@@ -3196,7 +3196,7 @@ footer {
     .service-image span {
         left: 25px;
         bottom: 20px;
-        font-size: 8px
+        font-size: 12px
     }
 
     .service-card:nth-child(2) .service-copy {
@@ -3214,7 +3214,7 @@ footer {
 
     .service-foot {
         padding: 25px 0;
-        font-size: 9px;
+        font-size: 12px;
         gap: 15px
     }
 
@@ -3239,7 +3239,7 @@ footer {
     }
 
     .project-top {
-        font-size: 7px
+        font-size: 12px
     }
 
     .project-info b {
@@ -3250,7 +3250,7 @@ footer {
 
     .image-disclaimer {
         left: 17px;
-        font-size: 5px
+        font-size: 12px
     }
 
     .project:first-child img {
@@ -3296,7 +3296,7 @@ footer {
     }
 
     .footer-cta>.eyebrow {
-        font-size: 7px
+        font-size: 12px
     }
 
     .footer-top {
@@ -3310,11 +3310,11 @@ footer {
 
     .footer-links a,
     .footer-links button {
-        font-size: 10px
+        font-size: 12px
     }
 
     .footer-bottom {
-        font-size: 7px
+        font-size: 12px
     }
 
     .footer-links:last-child {
@@ -3422,12 +3422,12 @@ footer {
         font-size: 26px
     }
 
-    .orb-content h3 {
+    .orb-content h4 {
         font-size: 18px
     }
 
     .orb-content>p:last-child {
-        font-size: 12px
+        font-size: 14px
     }
 
     .partner-result {
@@ -3438,7 +3438,7 @@ footer {
         margin-top: 35px
     }
 
-    .partner-result h3 {
+    .partner-result h2 {
         font-size: 35px
     }
 
@@ -3570,7 +3570,7 @@ footer {
     gap: 10px;
     background: none;
     line-height: 1.45;
-    font-size: 10px
+    font-size: 12px
 }
 
 .hero-services a:first-child {
@@ -3679,13 +3679,13 @@ footer {
     object-fit: contain
 }
 
-.orb-content h3 {
+.orb-content h4 {
     font: 600 17px/1.2 var(--head);
     margin-top: 20px
 }
 
 .orb-content>p:last-child {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.5;
     margin-top: 10px
 }
@@ -3739,18 +3739,18 @@ footer {
 
 .partner-result .eyebrow {
     color: #1e1e1e;
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 22px
 }
 
-.partner-result h3 {
+.partner-result h2 {
     font-size: 50px;
     line-height: 1.04;
     margin-bottom: 20px
 }
 
 .partner-result>p:last-child {
-    font-size: 13px
+    font-size: 14px
 }
 
 .partner-eyebrow {
@@ -3772,7 +3772,7 @@ footer {
     .hero-services a {
         flex-direction: column;
         align-items: flex-start;
-        font-size: 9px;
+        font-size: 12px;
         gap: 9px;
         padding: 0 10px;
         line-height: 1.45
@@ -3836,13 +3836,13 @@ footer {
         max-height: 35px
     }
 
-    .orb-content h3 {
-        font-size: 12px;
+    .orb-content h4 {
+        font-size: 14px;
         margin-top: 10px
     }
 
     .orb-content>p:last-child {
-        font-size: 7px;
+        font-size: 12px;
         margin-top: 8px
     }
 
@@ -3861,16 +3861,16 @@ footer {
     }
 
     .partner-result .eyebrow {
-        font-size: 8px;
+        font-size: 12px;
         margin-bottom: 18px
     }
 
-    .partner-result h3 {
+    .partner-result h2 {
         font-size: 36px
     }
 
     .partner-result>p:last-child {
-        font-size: 11px
+        font-size: 12px
     }
 }
 
@@ -3961,7 +3961,7 @@ footer {
         padding: 25px 20px 45px
     }
 
-    .partner-result h3 {
+    .partner-result h2 {
         font-size: 35px
     }
 
@@ -3979,13 +3979,13 @@ footer {
 .venture-disc { top:50%; z-index:7; }
 .venture-wordmark { top:50%; font-size:64px; text-align:center; }
 .partner-result { top:50%; text-align:center; }
-.partner-result h3 { font-size:clamp(40px,4.5vw,64px); }
+.partner-result h2 { font-size:clamp(40px,4.5vw,64px); }
 .partner-result>p:last-child { font-size:16px; }
 .orb-content { display:flex; flex-direction:column; align-items:center; text-align:center; padding:10% 13%; }
 .orb-content .share { margin-bottom:16px; }
 .orb img.kilburn-logo { width:72%; height:42px; max-height:42px; flex-shrink:0; }
 .orb img.eastend-clean { width:72%; height:42px; max-height:42px; flex-shrink:0; }
-.orb-content h3 { margin:14px 0 0; font-size:18px; }
+.orb-content h4 { margin:14px 0 0; font-size:18px; }
 .orb-content>p:last-child { margin-top:9px; }
 @media(min-width:1100px) {
  .wrap { width:min(1200px,calc(100% - 200px)); }
@@ -3999,11 +3999,11 @@ footer {
  .orb-content { padding:9%; }
  .orb-content .share { margin-bottom:9px; }
  .orb img.kilburn-logo,.orb img.eastend-clean { width:78%; height:24px; max-height:24px; }
- .orb-content h3 { margin-top:8px; font-size:12px; }
+ .orb-content h4 { margin-top:8px; font-size:14px; }
  .orb-content>p:last-child { margin-top:6px; }
  .venture-wordmark { font-size:46px; }
- .partner-result h3 { font-size:38px; }
- .partner-result>p:last-child { font-size:12px; }
+ .partner-result h2 { font-size:38px; }
+ .partner-result>p:last-child { font-size:14px; }
 }
 @media(prefers-reduced-motion:reduce) {
  .orbits,.venture-wordmark,.partner-result { top:auto; }
@@ -4018,3 +4018,41 @@ footer {
 .venture-blueprint { position:absolute; inset:0; z-index:7; pointer-events:none; color:#58240d; opacity:0; overflow:hidden; }
 .venture-blueprint svg { width:100%; height:100%; display:block; }
 @media(prefers-reduced-motion:reduce) { .venture-blueprint { display:none; } }
+
+/* Shared typography scale: body 14px; supporting text never below 12px. */
+:root { --type-body:14px; --type-small:12px; --type-h1:96px; --type-h2:64px; --type-h3:32px; --type-h4:20px; }
+body { font-size:var(--type-body); }
+h4 { margin:0; font-family:var(--head); font-weight:600; line-height:1.2; }
+.hero h1 { font-size:var(--type-h1); }
+h2, .stats-intro h2, .partner-title, .section-heading h2, .projects h2,
+.contact-copy h2, form h2, dialog h2, .partner-result h2 { font-size:var(--type-h2); line-height:1.04; }
+h3, .stat h3, .service-copy h3, .project-info strong { font-size:var(--type-h3); line-height:1.15; }
+h4, .orb-content h4 { font-size:var(--type-h4); line-height:1.2; }
+p, .hero-description, .stats-intro>p, .section-heading>p,
+.service-copy>p:not(.eyebrow), .contact-copy p, .partner-result>p:last-child,
+.footer-top p, .footer-links a, .footer-links button,
+input, textarea, select, .button, .hero-services a, .project-info>span { font-size:var(--type-body); }
+.eyebrow, .partner-result .eyebrow, .partner-eyebrow, .partner-hint,
+label, small, .stat-index, .project-top, .image-disclaimer,
+.service-image span, .footer-bottom, .footer-cta>.eyebrow { font-size:var(--type-small); }
+.hero-services { max-width:100%; }
+.orb-content>p:last-child { font-size:12px; line-height:1.4; }
+.orb-content .share { font-size:40px; margin-bottom:12px; }
+.orb-content h4 { margin:12px 0 0; }
+.orb-content>p:last-child { margin-top:8px; }
+@media(max-width:1100px) {
+ :root { --type-h1:72px; --type-h2:48px; --type-h3:28px; }
+}
+@media(max-width:700px) {
+ :root { --type-h1:56px; --type-h2:40px; --type-h3:24px; --type-h4:16px; }
+ .hero-services a { font-size:12px; }
+ .hero-services { grid-template-columns:repeat(3,minmax(0,1fr)); }
+ .orb-content { padding:5%; }
+ .orb-content .share { font-size:24px; margin-bottom:5px; }
+ .orb-content .share span { font-size:12px; }
+ .orb img.kilburn-logo, .orb img.eastend-clean { height:20px; max-height:20px; }
+ .orb-content h4 { margin-top:5px; }
+ .orb-content>p:last-child { margin-top:4px; font-size:12px; line-height:1.3; }
+ .service-copy>p:not(.eyebrow) { line-height:1.5; }
+ .service-copy { padding-top:24px; padding-bottom:24px; }
+}
